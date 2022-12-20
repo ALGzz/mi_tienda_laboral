@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: white;
+    background-repeat:no-repeat;
+    background-position: 100%;
+}
+.titulo_2{
+    width: 30vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    width: 20vw;
+}
+nav{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue';
+}
+.page{
+    display: flex;
+    width: 21%;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffde59;
+}
+.serv{
+    border: none;
+    background-color: white;
+    color: #ffde59;
+}
+a:hover{
+    color: #000000;
+    font-size: 150%;
+    font-variant: initial;
+}
+.serv:hover{
+    color: #000000;
+    font-size: 150%;
+    font-variant: initial;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.carousel{
+    width: 100%;
+
+}
+
+.iconowhat{
+    width: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px
+}
+.redes{
+    width: 16%;
+}
+.block2{
+    width: 50%;
+    text-align: center;
+}
+.block3{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    }
+.block5{
+    width: 33%;
+    text-align: center;
+}
+h5{
+    font-family: 'Arial';
+    font-size: 2rem;
+}
+p{
+    font-family: 'Arial';
+    font-size: 1.2rem;
+}
+.block6:hover{
+    background-color: #3949AB;
+    color: #FDEBD0;
+}
+.caja{
+    display: flex;
+    width: 60%;
+    background-color:#FDEBD0 ;
+    justify-content: center;
+    flex-direction: row;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}    
+.card{
+    background-color: lightgoldenrodyellow;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.low{
+    display: flex;
+    
+}
+.pow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.kow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;   
+}
+.sect1{
+    width: 100%;
+}
+.btn{
+    background-color:#ffde59;
+    color: black;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color:#ffde59;
+    color: black;
+    font-size: 2rem;
+    
+}
+.tituloconta{
+    font-family: "bebas Neue";
+    color: #ffde59;
+}
+footer{
+    background-color:white;
+    color:black;
+    display:flex;
+    align-items: center;
+    align-content:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cont-1{
+    width: 100%;
+    height: 70vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffde59;
+    text-shadow: 0px 0px 0px gray;
+    align-items: center;
+}
+.contein{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.menu{
+    font-family: 'beba neue';
+    font-size: 1.6rem;
+    color: #ffde59;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.submenu{
+    font-family: 'beba neue';
+    font-size: 1.6rem;
+    text-decoration-line: none;
+    color: #ffde59;
+    text-shadow: 1px 0px 1px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h3{
+    font-family: 'beba neue';
+    font-size: 1.2rem;
+}
+@media (max-width: 565px){
+    .play{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
