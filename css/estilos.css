@@ -50,6 +50,15 @@ a:hover{
     font-size: 150%;
     font-variant: initial;
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #ffde59;
+}
+.subtitulo{
+    font-size: 1.2rem;
+    font-family: 'Arial';
+}    
 .padre{
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +110,10 @@ p{
 }
 .caja{
     display: flex;
-    width: 60%;
-    background-color:#FDEBD0 ;
+    width: 80%;
+    background-color:#ffde59 ;
     justify-content: center;
-    flex-direction: row;
+    padding: 10px;
 }
 .form{
     display: flex;
@@ -119,8 +128,7 @@ p{
 }
 .row{
     display: flex;
-    flex-wrap: nowrap;
-}
+    }
 .low{
     display: flex;
     
@@ -128,12 +136,10 @@ p{
 .pow{
     display: flex;
     flex-wrap: wrap;
-    width: 45%;
 }
 .kow{
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
 }
 .sect1{
     width: 100%;
@@ -201,9 +207,32 @@ footer{
 h3{
     font-family: 'beba neue';
     font-size: 1.2rem;
+    color: darkgray;
+}
+.magica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img{
+    width: 25%;
+    padding: 10px;
 }
 @media (max-width: 565px){
-    .play{
+   
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 80%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .padre{
         display: none;
     }
     footer{
@@ -211,17 +240,17 @@ h3{
         flex-direction: column;
         justify-content: space-around;
     }
-    nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+    .redes{
+        width: 23%;
     }
-    header{
-        display: flex;
-        flex-direction: column;
+    .submenu{
+        font-size: 1.2rem;
     }
-    main{
-        display: flex;
-        flex-direction: column;
+    .fin{
+        font-size: 1rem;
+    }
+    .img{
+        width: 100%;
+        padding: 10px;
     }
 }
